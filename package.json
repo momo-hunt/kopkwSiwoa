@@ -1,0 +1,32 @@
+{
+	"name": "app-koperasi",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --check .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@supabase/ssr": "^0.3.0",
+		"@supabase/supabase-js": "^2.43.4",
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"autoprefixer": "^10.4.19",
+		"flowbite": "^2.3.0",
+		"flowbite-svelte": "^0.46.1",
+		"flowbite-svelte-icons": "^1.6.1",
+		"postcss": "^8.4.38",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "^4.2.7",
+		"sweetalert2": "^11.11.0",
+		"tailwindcss": "^3.4.3",
+		"vite": "^5.0.3",
+		"xlsx": "^0.18.5"
+	},
+	"type": "module"
+}
